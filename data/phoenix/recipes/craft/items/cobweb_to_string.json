@@ -3,7 +3,7 @@
     "group": "string",
     "ingredients": [
         {
-            "tag": "minecraft:cobweb"
+            "item": "minecraft:cobweb"
         }
     ],
     "result": {
