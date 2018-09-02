@@ -1,9 +1,9 @@
 # Data pack Phoenix
-Data pack create for use on a private server with friends
-Data pack créer pour une utilisation sur un serveur privé entre amis
+Data pack create for use on a private server with friends.  
+Data pack créer pour une utilisation sur un serveur privé entre amis.
 
 ## Changes
----
+
 ### Minecraft
 #### Recipes / recettes
 [:open_file_folder:folder => data/minecraft/recipes](data/minecraft/recipes)  
