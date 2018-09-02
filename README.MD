@@ -39,8 +39,51 @@ Pour débloquer des recettes
 
 #### Recipes / recettes
 ##### Craft
-[:open_file_folder:folder => data/phoenix/recipes/craft](data/phoenix/recipes/craft)
-TODO craft
+[:open_file_folder:folder => data/phoenix/recipes/craft](data/phoenix/recipes/craft)  
+Respect the paterne:  
+**[EN]**  
+If value is :heavy_check_mark: => the shape of the items identical to the image, but not the position. See exemple.  
+Else if value is :x: => shape of items not important  
+**[FR]**  
+Si la valeur est :heavy_check_mark: => la forme des items identique à l'image, mais pas la position. Voir exemple.  
+Sinon si la valeur est :x: => position des items pas importante
+
+Exemple:
+```
++---+---+---+       +---+---+---+       +---+---+---+       +---+---+---+
+| # | # |   |       |   | # | # |       |   |   |   |       |   |   |   |
++---+---+---+       +---+---+---+       +---+---+---+       +---+---+---+
+| # | # |   |   =   |   | # | # |   =   |   | # | # |   =   | # | # |   |
++---+---+---+       +---+---+---+       +---+---+---+       +---+---+---+
+|   |   |   |       |   |   |   |       |   | # | # |       | # | # |   |
++---+---+---+       +---+---+---+       +---+---+---+       +---+---+---+
+```
+
+###### Block
+
+| Name                     | Craft                                      | Respect the paterne | other |
+|:------------------------:|:------------------------------------------:|:-------------------:|:--|
+| ice_from_packed_ice      | ![craft](img/ice_from_packed_ice.png)      | :x:                 | :no_entry_sign:|
+| packed_ice_from_blue_ice | ![craft](img/packed_ice_from_blue_ice.png) | :x:                 | :no_entry_sign:|
+
+
+###### Items
+
+| Name               | Craft                              | Respect the paterne | other |
+|:------------------:|:----------------------------------:|:-------------------:|:--|
+| cobweb_to_string KO| ![craft](img/cobweb_to_string.png) | :x:                 | :no_entry_sign:|
+| string_to_cobweb   | ![craft](img/string_to_cobweb.png) | :heavy_check_mark:  | :no_entry_sign:|
+| wool_to_string     | ![craft](img/wool_to_string.png)   | :x:                 | All colors|
+
+
+###### Smooth blocks
+
+| Name                 | Craft                                  | Respect the paterne | other |
+|:--------------------:|:--------------------------------------:|:-------------------:|:--|
+| smooth_quartz        | ![craft](img/smooth_quartz.png)        | :heavy_check_mark:  | :no_entry_sign:|
+| smooth_red_sandstone | ![craft](img/smooth_red_sandstone.png) | :heavy_check_mark:  | :no_entry_sign:|
+| smooth_sandstone     | ![craft](img/smooth_sandstone.png)     | :heavy_check_mark:  | :no_entry_sign:|
+| smooth_stone         | ![craft](img/smooth_stone.png)         | :heavy_check_mark:  | :no_entry_sign:|
 
 ##### Smelting
 [:open_file_folder:folder => data/phoenix/recipes/smelting](data/phoenix/recipes/smelting)
