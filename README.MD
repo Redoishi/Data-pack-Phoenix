@@ -61,30 +61,33 @@ Exemple:
 
 ###### Block
 
-| Name                     | Craft                                      | Respect the paterne | other |
-|:------------------------:|:------------------------------------------:|:-------------------:|:--|
-| ice_from_packed_ice      | ![craft](img/ice_from_packed_ice.png)      | :x:                 | :no_entry_sign:|
-| packed_ice_from_blue_ice | ![craft](img/packed_ice_from_blue_ice.png) | :x:                 | :no_entry_sign:|
+| Name                     | Craft                                            | Respect the paterne | other |
+|:------------------------:|:------------------------------------------------:|:-------------------:|:--|
+| ice_from_packed_ice      | ![craft](img/craft/ice_from_packed_ice.png)      | :x:                 | :no_entry_sign:|
+| packed_ice_from_blue_ice | ![craft](img/craft/packed_ice_from_blue_ice.png) | :x:                 | :no_entry_sign:|
 
 
 ###### Items
 
-| Name               | Craft                              | Respect the paterne | other |
-|:------------------:|:----------------------------------:|:-------------------:|:--|
-| cobweb_to_string KO| ![craft](img/cobweb_to_string.png) | :x:                 | :no_entry_sign:|
-| string_to_cobweb   | ![craft](img/string_to_cobweb.png) | :heavy_check_mark:  | :no_entry_sign:|
-| wool_to_string     | ![craft](img/wool_to_string.png)   | :x:                 | All colors|
+| Name             | Craft                                    | Respect the paterne | other |
+|:----------------:|:----------------------------------------:|:-------------------:|:--|
+| cobweb_to_string | ![craft](img/craft/cobweb_to_string.png) | :x:                 | :no_entry_sign:|
+| string_to_cobweb | ![craft](img/craft/string_to_cobweb.png) | :heavy_check_mark:  | :no_entry_sign:|
+| wool_to_string   | ![craft](img/craft/wool_to_string.png)   | :x:                 | All colors|
 
 
 ###### Smooth blocks
 
-| Name                 | Craft                                  | Respect the paterne | other |
-|:--------------------:|:--------------------------------------:|:-------------------:|:--|
-| smooth_quartz        | ![craft](img/smooth_quartz.png)        | :heavy_check_mark:  | :no_entry_sign:|
-| smooth_red_sandstone | ![craft](img/smooth_red_sandstone.png) | :heavy_check_mark:  | :no_entry_sign:|
-| smooth_sandstone     | ![craft](img/smooth_sandstone.png)     | :heavy_check_mark:  | :no_entry_sign:|
-| smooth_stone         | ![craft](img/smooth_stone.png)         | :heavy_check_mark:  | :no_entry_sign:|
+| Name                 | Craft                                        | Respect the paterne | other |
+|:--------------------:|:--------------------------------------------:|:-------------------:|:--|
+| smooth_quartz        | ![craft](img/craft/smooth_quartz.png)        | :heavy_check_mark:  | :no_entry_sign:|
+| smooth_red_sandstone | ![craft](img/craft/smooth_red_sandstone.png) | :heavy_check_mark:  | :no_entry_sign:|
+| smooth_sandstone     | ![craft](img/craft/smooth_sandstone.png)     | :heavy_check_mark:  | :no_entry_sign:|
+| smooth_stone         | ![craft](img/craft/smooth_stone.png)         | :heavy_check_mark:  | :no_entry_sign:|
 
 ##### Smelting
 [:open_file_folder:folder => data/phoenix/recipes/smelting](data/phoenix/recipes/smelting)
-TODO smelting
+
+| Name  | Smelting                            |
+|:-----:|:-----------------------------------:|
+| magma | ![smelting](img/smelting/magma.png) |
