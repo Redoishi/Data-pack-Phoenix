@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": "Phoenix",
+        "frame": "task",
+        "description": "Bonjour",
+        "background": "minecraft:textures/block/red_concrete.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "start:1": {
+            "trigger": "inventory_changed"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"MHF_Golem\"}"
+        },
+        "title": "Vous ne passerez pas !",
+        "frame": "task",
+        "description": "Créer un golem de fer",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "phoenix:phoenix/winter_is_comming",
+    "criteria": {
+        "iron_golem:villager_golem": {
+            "trigger": "summoned_entity",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        }
+    }
+}

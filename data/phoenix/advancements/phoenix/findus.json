@@ -1,0 +1,47 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": "Fininininindus",
+        "frame": "task",
+        "description": "Tuer un cheval",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "phoenix:phoenix/root",
+    "criteria": {
+        "findus:horse": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:horse"
+                }
+            }
+        },
+        "findus:donkey": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:donkey"
+                }
+            }
+        },
+        "findus:mule": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:mule"
+                }
+            }
+        }
+    },
+    "requirements":[
+        [
+            "findus:horse",
+            "findus:donkey",
+            "findus:mule"
+        ]
+    ]
+}

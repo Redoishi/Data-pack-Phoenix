@@ -1,0 +1,108 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "title": "J'en ai vu des choses",
+        "frame": "challenge",
+        "description": "Trouver toutes les structures",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "phoenix:phoenix/root",
+    "criteria": {
+        "allStruct:Fortress": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Fortress"
+            }
+        },
+        "allStruct:EndCity": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "EndCity"
+            }
+        },
+        "allStruct:Mansion": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Mansion"
+            }
+        },
+        "allStruct:Mineshaft": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Mineshaft"
+            }
+        },
+        "allStruct:Monument": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Monument"
+            }
+        },
+        "allStruct:Stronghold": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Stronghold"
+            }
+        },
+        "allStruct:Desert_Pyramid": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Desert_Pyramid"
+            }
+        },
+        "allStruct:Igloo": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Igloo"
+            }
+        },
+        "allStruct:Jungle_Pyramid": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Jungle_Pyramid"
+            }
+        },
+        "allStruct:Village": {
+            "trigger": "location",
+            "conditions": {
+                "feature": "Village"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "allStruct:Fortress"
+        ],
+        [
+            "allStruct:EndCity"
+        ],
+        [
+            "allStruct:Mansion"
+        ],
+        [
+            "allStruct:Mineshaft"
+        ],
+        [
+            "allStruct:Monument"
+        ],
+        [
+            "allStruct:Stronghold"
+        ],
+        [
+            "allStruct:Desert_Pyramid"
+        ],
+        [
+            "allStruct:Igloo"
+        ],
+        [
+            "allStruct:Jungle_Pyramid"
+        ],
+        [
+            "allStruct:Village"
+        ]
+    ]
+}

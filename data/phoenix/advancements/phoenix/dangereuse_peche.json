@@ -1,0 +1,24 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": "Dangereuse pêche",
+        "frame": "goal",
+        "description": "Pécher un creeper",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "phoenix:phoenix/root",
+    "criteria": {
+        "DangereusePeche:creeper": {
+            "trigger": "fishing_rod_hooked",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:creeper"
+                }
+            }
+        }
+    }
+}

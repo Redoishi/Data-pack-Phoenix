@@ -1,0 +1,25 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"MHF_PigZombie\"}"
+        },
+        "title": "Courez !!!",
+        "frame": "task",
+        "description": "Taper un pigmen",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "phoenix:phoenix/root",
+    "criteria": {
+        "winter_is_comming": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:zombie_pigman"
+                }
+            }
+        }
+    }
+}

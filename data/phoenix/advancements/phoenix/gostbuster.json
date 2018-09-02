@@ -1,0 +1,24 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "title": "Gostbuster",
+        "frame": "goal",
+        "description": "Tuer un phantom",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "phoenix:phoenix/findus",
+    "criteria": {
+        "Gostbuster:kill": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:phantom"
+                }
+            }
+        }
+    }
+}

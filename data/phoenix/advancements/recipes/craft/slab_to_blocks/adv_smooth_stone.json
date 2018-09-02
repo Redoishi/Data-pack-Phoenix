@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_stone_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_slab",
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/slab_to_blocks/smooth_stone"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stone_slab",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "phoenix:craft/slab_to_blocks/smooth_stone"
+        ]
+    }
+}

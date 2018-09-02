@@ -1,0 +1,24 @@
+{
+    "display":{
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "title": "Winter is comming",
+        "frame": "task",
+        "description": "Créer un golem de neige",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "phoenix:phoenix/root",
+    "criteria": {
+        "winter_is_comming:snow_golem": {
+            "trigger": "summoned_entity",
+            "conditions": {
+                "entity":{
+                    "type": "minecraft:snow_golem"
+                }
+            }
+        }
+    }
+}
