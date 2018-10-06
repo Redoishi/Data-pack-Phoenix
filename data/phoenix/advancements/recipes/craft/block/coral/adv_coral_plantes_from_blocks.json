@@ -1,0 +1,107 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_coral": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "phoenix:coral_blocks",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "has_the_recipe_1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/tube"
+            }
+        },
+        "has_the_recipe_2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/brain"
+            }
+        },
+        "has_the_recipe_3": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/bubble"
+            }
+        },
+        "has_the_recipe_4": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/fire"
+            }
+        },
+        "has_the_recipe_5": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/horn"
+            }
+        },
+        "has_the_recipe_6": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_tube"
+            }
+        },
+        "has_the_recipe_7": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_brain"
+            }
+        },
+        "has_the_recipe_8": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_bubble"
+            }
+        },
+        "has_the_recipe_9": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_fire"
+            }
+        },
+        "has_the_recipe_10": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_horn"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_coral",
+            "has_the_recipe_1",
+            "has_the_recipe_2",
+            "has_the_recipe_3",
+            "has_the_recipe_4",
+            "has_the_recipe_5",
+            "has_the_recipe_6",
+            "has_the_recipe_7",
+            "has_the_recipe_8",
+            "has_the_recipe_9",
+            "has_the_recipe_10"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/tube",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/brain",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/bubble",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/fire",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/horn",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_tube",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_brain",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_bubble",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_fire",
+            "phoenix:craft/blocks/coral/coral_plantes/from_blocks/dead_horn"
+        ]
+    }
+}
