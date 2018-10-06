@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "coral",
+    "ingredients": [
+        {
+            "item": "minecraft:dead_brain_coral_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dead_brain_coral",
+        "count": 4
+    }
+}

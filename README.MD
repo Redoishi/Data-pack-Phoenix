@@ -71,7 +71,9 @@ Exemple:
 | smooth_sandstone     | ![craft](img/craft/smooth_sandstone.png)     | :heavy_check_mark:  | :no_entry_sign:|
 | smooth_stone         | ![craft](img/craft/smooth_stone.png)         | :heavy_check_mark:  | :no_entry_sign:|
 | **- Coral** |
-| coral_fan/* | ![craft](img/coral_fan.png) | :heavy_check_mark:  | All coral / dead coral |
+| coral_fan/*                | ![craft](img/coral_fan.png)               | :heavy_check_mark:  | All coral / dead coral |
+| coral_plants/from_fan/*    | ![craft](img/coral_plant_from_fan.png)    | :heavy_check_mark:  | All coral / dead coral |
+| coral_plants/from_blocks/* | ![craft](img/coral_plant_from_blocks.png) | :heavy_check_mark:  | All coral / dead coral |
 
 
 ###### Items
