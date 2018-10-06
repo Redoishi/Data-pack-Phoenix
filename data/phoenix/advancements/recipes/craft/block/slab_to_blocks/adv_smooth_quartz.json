@@ -1,14 +1,14 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_red_sandstone_slab": {
+        "has_quartz_slab": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_sandstone_slab",
+                        "item": "minecraft:quartz_slab",
                         "count": {
-                            "min": 2
+                            "min": 4
                         }
                     }
                 ]
@@ -17,19 +17,19 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "phoenix:craft/slab_to_blocks/smooth_red_sandstone"
+                "recipe": "phoenix:craft/blocks/slab_to_blocks/smooth_quartz"
             }
         }
     },
     "requirements": [
         [
-            "has_red_sandstone_slab",
+            "has_quartz_slab",
             "has_the_recipe"
         ]
     ],
     "rewards": {
         "recipes": [
-            "phoenix:craft/slab_to_blocks/smooth_red_sandstone"
+            "phoenix:craft/blocks/slab_to_blocks/smooth_quartz"
         ]
     }
 }
