@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:carved_pumpkin"
         },
-        "title": "Gostbuster",
+        "title": "Ghostbuster",
         "frame": "goal",
         "description": "Tuer un phantom",
         "show_toast": true,
