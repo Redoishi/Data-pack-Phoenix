@@ -12,97 +12,149 @@
     },
     "parent": "phoenix:phoenix/root",
     "criteria": {
-        "allStruct:Fortress": {
+        "allStruct:BastionRemnant": {
             "trigger": "location",
             "conditions": {
-                "feature": "Fortress"
+                "location": {
+                    "feature": "bastion_remnant"
+                }
+            }
+        },
+        "allStruct:BuriedTreasure": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "buried_treasure"
+                }
             }
         },
         "allStruct:EndCity": {
             "trigger": "location",
             "conditions": {
-                "feature": "EndCity"
+                "location": {
+                    "feature": "endcity"
+                }
+            }
+        },
+        "allStruct:Fortress": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "fortress"
+                }
             }
         },
         "allStruct:Mansion": {
             "trigger": "location",
             "conditions": {
-                "feature": "Mansion"
+                "location": {
+                    "feature": "mansion"
+                }
             }
         },
         "allStruct:Mineshaft": {
             "trigger": "location",
             "conditions": {
-                "feature": "Mineshaft"
+                "location": {
+                    "feature": "mineshaft"
+                }
             }
         },
         "allStruct:Monument": {
             "trigger": "location",
             "conditions": {
-                "feature": "Monument"
+                "location": {
+                    "feature": "monument"
+                }
+            }
+        },
+        "allStruct:NetherFossil": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "nether_fossil"
+                }
+            }
+        },
+        "allStruct:OceanRuin": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "ocean_ruin"
+                }
+            }
+        },
+        "allStruct:PillagerOutpost": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "pillager_outpost"
+                }
+            }
+        },
+        "allStruct:RuinedPortal": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "ruined_portal"
+                }
+            }
+        },
+        "allStruct:Shipwreck": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "shipwreck"
+                }
             }
         },
         "allStruct:Stronghold": {
             "trigger": "location",
             "conditions": {
-                "feature": "Stronghold"
+                "location": {
+                    "feature": "stronghold"
+                }
             }
         },
         "allStruct:Desert_Pyramid": {
             "trigger": "location",
             "conditions": {
-                "feature": "Desert_Pyramid"
+                "location": {
+                    "feature": "desert_pyramid"
+                }
             }
         },
         "allStruct:Igloo": {
             "trigger": "location",
             "conditions": {
-                "feature": "Igloo"
+                "location": {
+                    "feature": "igloo"
+                }
             }
         },
         "allStruct:Jungle_Pyramid": {
             "trigger": "location",
             "conditions": {
-                "feature": "Jungle_Pyramid"
+                "location": {
+                    "feature": "jungle_pyramid"
+                }
+            }
+        },
+        "allStruct:SwampHut": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "swamp_hut"
+                }
             }
         },
         "allStruct:Village": {
             "trigger": "location",
             "conditions": {
-                "feature": "Village"
+                "location": {
+                    "feature": "village"
+                }
             }
         }
-    },
-    "requirements": [
-        [
-            "allStruct:Fortress"
-        ],
-        [
-            "allStruct:EndCity"
-        ],
-        [
-            "allStruct:Mansion"
-        ],
-        [
-            "allStruct:Mineshaft"
-        ],
-        [
-            "allStruct:Monument"
-        ],
-        [
-            "allStruct:Stronghold"
-        ],
-        [
-            "allStruct:Desert_Pyramid"
-        ],
-        [
-            "allStruct:Igloo"
-        ],
-        [
-            "allStruct:Jungle_Pyramid"
-        ],
-        [
-            "allStruct:Village"
-        ]
-    ]
+    }
 }
