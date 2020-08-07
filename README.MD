@@ -65,11 +65,6 @@ Exemple:
 |:------------------------:|:------------------------------------------------:|:-------------------:|:--|
 | ice_from_packed_ice      | ![craft](img/craft/ice_from_packed_ice.png)      | :x:                 | :no_entry_sign:|
 | packed_ice_from_blue_ice | ![craft](img/craft/packed_ice_from_blue_ice.png) | :x:                 | :no_entry_sign:|
-| **- Smooth blocks** |
-| smooth_quartz        | ![craft](img/craft/smooth_quartz.png)        | :heavy_check_mark:  | :no_entry_sign:|
-| smooth_red_sandstone | ![craft](img/craft/smooth_red_sandstone.png) | :heavy_check_mark:  | :no_entry_sign:|
-| smooth_sandstone     | ![craft](img/craft/smooth_sandstone.png)     | :heavy_check_mark:  | :no_entry_sign:|
-| smooth_stone         | ![craft](img/craft/smooth_stone.png)         | :heavy_check_mark:  | :no_entry_sign:|
 | **- Coral** |
 | coral_fan/*                | ![craft](img/craft/coral_fan.png)               | :x:                 | All coral / dead coral |
 | coral_plants/from_fan/*    | ![craft](img/craft/coral_plant_from_fan.png)    | :x:                 | All coral / dead coral |
@@ -84,12 +79,3 @@ Exemple:
 | cobweb_to_string | ![craft](img/craft/cobweb_to_string.png) | :x:                 | :no_entry_sign:|
 | string_to_cobweb | ![craft](img/craft/string_to_cobweb.png) | :heavy_check_mark:  | :no_entry_sign:|
 | wool_to_string   | ![craft](img/craft/wool_to_string.png)   | :x:                 | All colors|
-
-
-
-##### Smelting
-[:open_file_folder:folder => data/phoenix/recipes/smelting](data/phoenix/recipes/smelting)
-
-| Name  | Smelting                            |
-|:-----:|:-----------------------------------:|
-| magma | ![smelting](img/smelting/magma.png) |
