@@ -11,7 +11,6 @@ Data pack créer pour une utilisation sur un serveur privé entre amis.
 | file | change |
 |--|--|
 |packed_ice.json | "group": "packed_ice"|
-|*_stairs.json | result count to 6|
 
 ---
 ### Phoenix
@@ -66,8 +65,6 @@ Exemple:
 | ice_from_packed_ice      | ![craft](img/craft/ice_from_packed_ice.png)      | :x:                 | :no_entry_sign:|
 | packed_ice_from_blue_ice | ![craft](img/craft/packed_ice_from_blue_ice.png) | :x:                 | :no_entry_sign:|
 | **- Coral** |
-| coral_fan/*                | ![craft](img/craft/coral_fan.png)               | :x:                 | All coral / dead coral |
-| coral_plants/from_fan/*    | ![craft](img/craft/coral_plant_from_fan.png)    | :x:                 | All coral / dead coral |
 | coral_plants/from_blocks/* | ![craft](img/craft/coral_plant_from_blocks.png) | :x:                 | All coral / dead coral |
 | coral_blocks/*             | ![craft](img/craft/coral_blocks.png)            | :heavy_check_mark:  | All coral / dead coral |
 
@@ -76,6 +73,4 @@ Exemple:
 
 | Name             | Craft                                    | Respect the paterne | other |
 |:----------------:|:----------------------------------------:|:-------------------:|:--|
-| cobweb_to_string | ![craft](img/craft/cobweb_to_string.png) | :x:                 | :no_entry_sign:|
-| string_to_cobweb | ![craft](img/craft/string_to_cobweb.png) | :heavy_check_mark:  | :no_entry_sign:|
 | wool_to_string   | ![craft](img/craft/wool_to_string.png)   | :x:                 | All colors|
