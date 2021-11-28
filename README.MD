@@ -30,12 +30,11 @@ Les ajouts.
 root
 |__all_structures
 |__courez
-|__dangereuse_peche
 |__findus
 |  |_ghostbuster
+|__peche_explosive
 |__winter_is_comming
 |  |_iron_golem
-|__space_marine
 ```
 
 ##### Recipes / recettes

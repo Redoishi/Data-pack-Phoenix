@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:fishing_rod"
         },
-        "title": "Dangereuse pêche",
+        "title": "Pêche explosive",
         "frame": "goal",
         "description": "Pécher un creeper",
         "show_toast": true,
