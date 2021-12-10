@@ -15,6 +15,10 @@ Data pack créer pour une utilisation sur un serveur privé entre amis.
 |--|--|
 |packed_ice.json | "group": "packed_ice"|
 
+#### loot_tables
+
+shulker => drop 2 shulker shell
+
 ---
 ### Phoenix
 
