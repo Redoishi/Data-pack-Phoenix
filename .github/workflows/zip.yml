@@ -27,3 +27,8 @@ jobs:
 
       - name: Zip data pack
         run: zip -r Phoenix.zip data pack.mcmeta
+        
+      - name: upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Phoenix
