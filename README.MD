@@ -88,3 +88,11 @@ Exemple:
 | Name             | Craft                                    | Respect the paterne | other |
 |:----------------:|:----------------------------------------:|:-------------------:|:--|
 | wool_to_string   | ![craft](img/craft/wool_to_string.png)   | :x:                 | All colors|
+
+##### stonecutting
+
+[:open_file_folder:folder => data/phoenix/recipes/stonecutting](data/phoenix/recipes/stonecutting)  
+
+| Name             | Craft                                    |
+|:----------------:|:----------------------------------------:|
+| tropical   |    |
