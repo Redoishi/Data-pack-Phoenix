@@ -24,6 +24,16 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      - name: Zip data pack
-        run: zip -r Phoenix.zip data pack.mcmeta
+      
+      #
+      #- name: Zip data pack
+      #  run: zip -r Phoenix.zip data pack.mcmeta
+        
+      - name: upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Phoenix
+          path: |
+              data/
+              pack.mcmeta
+              
