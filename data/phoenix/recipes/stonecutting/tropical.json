@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "group": "fish",
-    "ingredients": [
+    "ingredient": [
         {
             "item": "minecraft:tropical_fish"
         }
